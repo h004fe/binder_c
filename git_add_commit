@@ -1,0 +1,5 @@
+#! /bin/bash
+git config --global user.email "h004fe@icloud.com"
+git config --global user.name "h004fe"
+
+cd ~/実践Julia入門 && git add * && git commit -m "At `TZ=JST-9 date +"%Y/%m/%d %H:%M:%S"`"

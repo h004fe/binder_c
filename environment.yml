@@ -1,0 +1,12 @@
+name: ClangPyBinder
+channels:
+  - conda-forge
+dependencies:
+#  - numpy
+#  - pandas
+#  - matplotlib
+  - pip
+  - pip:
+    - jupyterlab
+    - jupyterlab-git
+    - ckernel
