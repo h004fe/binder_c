@@ -10,4 +10,6 @@ echo "c.AsyncMultiKernelManager.default_kernel_name = 'C/C++'"  >> /home/jovyan/
 echo "c.AsyncMappingKernelManager.default_kernel_name = 'C/C++'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
 echo "c.GatewayKernelManager.default_kernel_name = 'C/C++'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
 
+mkdir -p ~/.jupyter/custom && mv ./custom.js ~/.jupyter/custom
+
 exec "$@"
