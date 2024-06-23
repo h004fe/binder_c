@@ -4,11 +4,11 @@ python3 -m ckernel install ckernel "C/C++"
 
 #Change C/C++ Kernel
 jupyter notebook --generate-config
-echo "c.MultiKernelManager.default_kernel_name = 'C//C++'" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
-echo "c.MappingKernelManager.default_kernel_name = 'C//C++'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
-echo "c.AsyncMultiKernelManager.default_kernel_name = 'C//C++'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
-echo "c.AsyncMappingKernelManager.default_kernel_name = 'C//C++'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
-echo "c.GatewayKernelManager.default_kernel_name = 'C//C++'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+echo "c.MultiKernelManager.default_kernel_name = 'ckernel'" >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+echo "c.MappingKernelManager.default_kernel_name = 'ckernel'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+echo "c.AsyncMultiKernelManager.default_kernel_name = 'ckernel'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+echo "c.AsyncMappingKernelManager.default_kernel_name = 'ckernel'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
+echo "c.GatewayKernelManager.default_kernel_name = 'ckernel'"  >> /home/jovyan/.jupyter/jupyter_notebook_config.py
 
 #mkdir -p ~/.jupyter/custom && mv ./custom.js ~/.jupyter/custom
 
